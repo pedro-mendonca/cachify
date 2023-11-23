@@ -1,0 +1,313 @@
+# Translation of Plugins - Cachify - Development (trunk) in Portuguese (Portugal)
+# This file is distributed under the same license as the Plugins - Cachify - Development (trunk) package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Plugins - Cachify - Development (trunk)\n"
+"POT-Creation-Date: 2023-11-23 15:20+0000\n"
+"PO-Revision-Date: 2023-11-23 15:26+0000\n"
+"Last-Translator: Pedro Mendonça <ped.gaspar@gmail.com>\n"
+"Language-Team: \n"
+"Language: pt_PT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.4.1\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-WPHeader: cachify.php\n"
+"X-Poedit-Basepath: ../../plugins/cachify\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: inc/cachify.settings-footer.php:13
+msgid "https://cachify.pluginkollektiv.org/documentation/faq/"
+msgstr "https://cachify.pluginkollektiv.org/documentation/faq/"
+
+#: inc/cachify.settings-footer.php:13
+msgid "FAQ"
+msgstr "Perguntas frequentes"
+
+#: inc/cachify.settings-footer.php:14
+msgid "Manual"
+msgstr "Documentação"
+
+#: inc/cachify.settings-footer.php:15 inc/class-cachify.php:532
+msgid "Support"
+msgstr "Suporte"
+
+#: inc/cachify.settings-footer.php:16 inc/class-cachify.php:531
+msgid "Donate"
+msgstr "Fazer donativo"
+
+#: inc/cachify.settings.php:17
+msgid "Cache method"
+msgstr "Método de cache"
+
+#: inc/cachify.settings.php:30
+msgid "Cache expiration"
+msgstr "Expiração da cache"
+
+#: inc/cachify.settings.php:34
+msgid "Hours"
+msgstr "Horas"
+
+#: inc/cachify.settings.php:36
+msgid "HDD cache will only expire correctly when triggered by a system cron."
+msgstr "A cache em HDD apenas expirará correctamente ao accionar por um cron do sistema."
+
+#: inc/cachify.settings.php:43
+#, php-format
+msgid "Flush the cache by clicking the button below or the %1$s icon in the admin bar."
+msgstr "Limpe cache ao clicar no botão abaixo ou no ícone %1$s na barra de administração."
+
+#: inc/cachify.settings.php:44 inc/class-cachify.php:669
+msgid "Flush the Cachify cache"
+msgstr "Limpar cache do Cachify"
+
+#: inc/cachify.settings.php:55
+msgid "Flush cache now"
+msgstr "Limpar cache agora"
+
+#: inc/cachify.settings.php:63
+msgid "Cache generation"
+msgstr "Geração da cache"
+
+#: inc/cachify.settings.php:69
+msgid "No cache generation by logged in users"
+msgstr "Não gerar cache para utilizadores com sessão iniciada"
+
+#: inc/cachify.settings.php:76
+msgid "Flush the cache at modified posts"
+msgstr "Limpar cache de conteúdos modificados"
+
+#: inc/cachify.settings.php:79
+msgid "If selected, the site cache will be flushed, otherwise only the modified post is removed from the cache."
+msgstr "Ao activar, a cache do site será limpa, de outro modo apenas o conteúdo modificado será removido da cache."
+
+#: inc/cachify.settings.php:86
+msgid "Flush the cache at new comments"
+msgstr "Limpar cache em caso de novos comentários"
+
+#: inc/cachify.settings.php:89
+msgid "If selected, the site cache will be flushed, otherwise only the corresponding post is removed from the cache."
+msgstr "Ao activar, a cache do site será limpa, de outro modo apenas o conteúdo correspondente será removido da cache."
+
+#: inc/cachify.settings.php:97
+msgid "Cache exceptions"
+msgstr "Excepções da cache"
+
+#: inc/cachify.settings.php:102
+msgid "e.g. 1, 2, 3"
+msgstr "Por exemplo: 1, 2, 3"
+
+#: inc/cachify.settings.php:103
+msgid "Post/Page IDs"
+msgstr "ID de conteúdos/páginas"
+
+#: inc/cachify.settings.php:109
+msgid "e.g. MSIE 6, Opera"
+msgstr "Por exemplo: MSIE 6, Opera"
+
+#: inc/cachify.settings.php:110
+msgid "Browser User Agents"
+msgstr "Agentes de utilizador de navegador"
+
+#: inc/cachify.settings.php:118
+msgid "Cache minify"
+msgstr "Minificar cache"
+
+#: inc/cachify.settings.php:133
+msgid "Cache signature"
+msgstr "Assinatura da cache"
+
+#: inc/cachify.settings.php:137
+msgid "Add additional details to Cachify signature (HTML comment)"
+msgstr "Adicione mais detalhes à assinatura do Cachify (comentário HTML)"
+
+#: inc/class-cachify-apc.php:144 inc/class-cachify-db.php:198
+#: inc/class-cachify-hdd.php:157 inc/class-cachify-memcached.php:195
+msgid "Generated"
+msgstr "Gerado"
+
+#: inc/class-cachify.php:475
+msgid "Cachify expire"
+msgstr "Expiração da cache"
+
+#: inc/class-cachify.php:506 inc/class-cachify.php:1802
+msgid "Settings"
+msgstr "Opções"
+
+#: inc/class-cachify.php:565
+msgid "Empty Cache"
+msgstr "Cache vazia"
+
+#: inc/class-cachify.php:567
+#, php-format
+msgid "%s Cache"
+msgstr "%s de cache"
+
+#: inc/class-cachify.php:583
+#, php-format
+msgid "%1$s: %2$s"
+msgstr "%1$s: %2$s"
+
+#: inc/class-cachify.php:584
+msgid "Caching method"
+msgstr "Método de cache"
+
+#: inc/class-cachify.php:664
+msgid "Flush site cache"
+msgstr "Limpar cache do site"
+
+#: inc/class-cachify.php:716
+msgid "Flushing cache"
+msgstr "A limpar a cache"
+
+#: inc/class-cachify.php:717
+msgid "Cache flushed successfully"
+msgstr "Cache limpa com sucesso"
+
+#: inc/class-cachify.php:877
+msgid "Cachify cache is flushed."
+msgstr "A cache do Cachify foi limpa."
+
+#. Plugin Name of the plugin/theme
+#: inc/class-cachify.php:1621 inc/class-cachify.php:1622
+msgid "Cachify"
+msgstr "Cachify"
+
+#: inc/class-cachify.php:1642
+msgid "Database"
+msgstr "Base de dados"
+
+#: inc/class-cachify.php:1643
+msgid "APC"
+msgstr "APC"
+
+#: inc/class-cachify.php:1644
+msgid "Hard disk"
+msgstr "Disco"
+
+#: inc/class-cachify.php:1645
+msgid "Memcached"
+msgstr "Memcached"
+
+#: inc/class-cachify.php:1675
+msgid "No minify"
+msgstr "Não minificar"
+
+#: inc/class-cachify.php:1676
+msgid "HTML"
+msgstr "HTML"
+
+#: inc/class-cachify.php:1677
+msgid "HTML + Inline JavaScript"
+msgstr "HTML + JavaScript em linha"
+
+#: inc/class-cachify.php:1721
+msgid "The server configuration file (e.g. .htaccess) needs to be adjusted. Please have a look at the setup tab."
+msgstr "O ficheiro de configuração do servidor (por exemplo: .htaccess) tem de ser ajustado. Consulte o separador de configuração."
+
+#: inc/class-cachify.php:1810 inc/class-cachify.php:1816
+#: inc/class-cachify.php:1822
+msgid "Setup"
+msgstr "Configuração"
+
+#: inc/setup/cachify.apc.htaccess.php:20
+msgid ".htaccess APC setup"
+msgstr "Configuração de APC em .htaccess"
+
+#: inc/setup/cachify.apc.htaccess.php:21 inc/setup/cachify.hdd.htaccess.php:62
+msgid "Please add the following lines to your .htaccess file"
+msgstr "Por favor adicione as seguintes linhas ao seu ficheiro .htaccess"
+
+#: inc/setup/cachify.apc.nginx.php:28
+msgid "nginx APC setup"
+msgstr "Configuração de APC em nginx"
+
+#: inc/setup/cachify.apc.nginx.php:29
+msgid "Please add the following lines to your nginx PHP configuration"
+msgstr "Por favor adicione as seguintes linhas à sua configuração PHP nginx"
+
+#: inc/setup/cachify.apc.nginx.php:40
+msgid "You might need to adjust the non-highlighted lines to your needs."
+msgstr "Poderá ser necessário ajustar as linhas não realçadas às suas necessidades."
+
+#: inc/setup/cachify.hdd.htaccess.php:61
+msgid ".htaccess HDD setup"
+msgstr "Configuração de HDD em .htaccess"
+
+#: inc/setup/cachify.hdd.htaccess.php:75 inc/setup/cachify.hdd.nginx.php:58
+#: inc/setup/cachify.memcached.nginx.php:58
+msgid "Notes"
+msgstr "Notas"
+
+#: inc/setup/cachify.hdd.htaccess.php:78
+msgid "Within .htaccess, the extension has a higher priority and must be placed above the WordPress Rewrite rules (marked mostly by # BEGIN WordPress … # END WordPress)."
+msgstr "Com .htaccess, a extensão tem prioridade mais elevada e deverá ser inserida acima das regras de reescrita do WordPress (envolvidas por # BEGIN WordPress … # END WordPress)."
+
+#: inc/setup/cachify.hdd.htaccess.php:81
+msgid "Changes to the .htaccess file can not be made if PHP is run as FastCGI."
+msgstr "Não poderão ser feitas alterações ao ficheiro .htaccess caso o PHP seja executado como FastCGI."
+
+#: inc/setup/cachify.hdd.htaccess.php:84
+msgid "If there are partial errors in the redirects within the blog, the shutdown of the Apache Content Cache can help:"
+msgstr "Se ocorrerem erros parciais nos redireccionamentos dentro do blog, o encerramento do Apache Content Cache pode ajudar:"
+
+#: inc/setup/cachify.hdd.htaccess.php:90
+msgid "In case of special character errors, you can add the following to the .htaccess file:"
+msgstr "No caso de erros de caracteres especiais, pode adicionar o seguinte ao ficheiro .htaccess:"
+
+#: inc/setup/cachify.hdd.nginx.php:12
+msgid "nginx HDD setup"
+msgstr "Configuração de HDD em nginx"
+
+#: inc/setup/cachify.hdd.nginx.php:13 inc/setup/cachify.memcached.nginx.php:13
+msgid "Please add the following lines to your nginx.conf"
+msgstr "Por favor adicione as seguintes linhas ao seu ficheiro nginx.conf"
+
+#: inc/setup/cachify.hdd.nginx.php:56 inc/setup/cachify.memcached.nginx.php:56
+msgid "You might need to adjust the location directives to your needs."
+msgstr "Poderá ser necessário ajustar as directivas de localização às suas necessidades."
+
+#: inc/setup/cachify.hdd.nginx.php:64 inc/setup/cachify.memcached.nginx.php:64
+#, php-format
+msgid "For domains with FQDN, the variable %1$s must be used instead of %2$s."
+msgstr "Para domínios com FQDN, deve ser utilizada a variável %1$s em vez de %2$s."
+
+#: inc/setup/cachify.memcached.nginx.php:12
+msgid "nginx Memcached setup"
+msgstr "Configuração de Memcached em nginx"
+
+#: inc/setup/cachify.memcached.nginx.php:74
+#, php-format
+msgid "If you have errors please try to change %1$s to %2$s This forces IPv4 because some servers that allow IPv4 and IPv6 are configured to bind Memcached to IPv4 only."
+msgstr "Se ocorrerem erros, tente alterar %1$s para %2$s. Isto força o IPv4 porque alguns servidores que permitem IPv4 e IPv6 estão configurados para associar Memcached apenas ao IPv4."
+
+#. Plugin URI of the plugin/theme
+msgid "https://cachify.pluginkollektiv.org"
+msgstr "https://cachify.pluginkollektiv.org"
+
+#. Description of the plugin/theme
+msgid "Easy to use WordPress caching plugin. Serving static blog pages from database, disk, Memcached or APC."
+msgstr "Plugin de cache para WordPress fácil de usar. Permite-lhe criar páginas estáticas a partir da base de dados, disco, Memcached ou APC."
+
+#. Author of the plugin/theme
+msgid "pluginkollektiv"
+msgstr "pluginkollektiv"
+
+#. Author URI of the plugin/theme
+msgid "https://pluginkollektiv.org"
+msgstr "https://pluginkollektiv.org"
+
+#~ msgid "Changes to the .htaccess file can not be made if PHP is run as fcgi."
+#~ msgstr "Não poderão ser feitas alterações ao ficheiro .htaccess caso o PHP seja executado como FastCGI."
+
+#~ msgid "If you have errors please try to change %1$s to %2$s This forces IPv4 because some servers that allow IPv4 and IPv6 are configured to bind memcached to IPv4 only."
+#~ msgstr "Se ocorrerem erros, tente alterar %1$s para %2$s. Isto força o IPv4 porque alguns servidores que permitem IPv4 e IPv6 estão configurados para associar Memcached apenas ao IPv4."
+
+#~ msgid "HDD cache will only expire as you update posts or flush it yourself."
+#~ msgstr "A cache em HDD apenas expirará ao actualizar conteúdos ou se a limpar você mesmo."
+
+#~ msgid "Flush the cachify cache"
+#~ msgstr "Limpar cache do Cachify"
